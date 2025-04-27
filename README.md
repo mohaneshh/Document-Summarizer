@@ -17,55 +17,37 @@ Built with LangChain, Hugging Face Transformers, and Streamlit
 📦 Installation Instructions
 Clone the Repository
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ai-document-summarizer.git
-cd ai-document-summarizer
+'''git clone https://github.com/your-username/ai-document-summarizer.git'''
+'''cd ai-document-summarizer'''
+
 Install Required Packages
+'''pip install -r requirements.txt'''
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
+
 The key libraries used:
-
 streamlit
-
 transformers
-
 torch
-
 langchain
-
 pypdf
-
 sentence-transformers
 
 Model Checkpoint Setup
 
 Important Note:
 In this project, the LaMini-Flan-T5-248M model is downloaded and stored locally (in my system) for faster access and offline usage.
-
 If you are running this project on your own machine, you must download or import the model:
 
 Option 1: Download the model manually
 Visit Hugging Face Model Hub - LaMini-Flan-T5-248M
-
 Click Download and save the model folder to your local machine
-
 Update the checkpoint path in the code:
 
-python
-Copy
-Edit
 checkpoint = "path/to/your/downloaded/model/folder"
+
 Option 2: Load the model directly from Hugging Face
 You can modify the checkpoint to load online:
 
-python
-Copy
-Edit
 checkpoint = "MBZUAI/LaMini-Flan-T5-248M"
 This will automatically download the model when the code runs (requires internet).
 
@@ -74,17 +56,8 @@ After setup:
 
 Run the Streamlit app:
 
-bash
-Copy
-Edit
-streamlit run app.py
-Open your browser and go to:
+'''streamlit run app.py'''
 
-arduino
-Copy
-Edit
-http://localhost:8501
-Upload a PDF and click Summarize to view results!
 
 🛠️ Project Workflow
 PDF Loading: Read documents using LangChain's PyPDFLoader.
