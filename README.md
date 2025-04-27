@@ -17,9 +17,11 @@ Built with LangChain, Hugging Face Transformers, and Streamlit
 📦 Installation Instructions
 Clone the Repository
 
-'''git clone https://github.com/your-username/ai-document-summarizer.git'''
-'''cd ai-document-summarizer'''
+```bash
+git clone https://github.com/your-username/Document-Summarizer.git
+cd Document-Summarizer```
 
+```
 Install Required Packages
 '''pip install -r requirements.txt'''
 
