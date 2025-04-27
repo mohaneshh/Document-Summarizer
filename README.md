@@ -20,11 +20,12 @@ Clone the Repository
 ```bash
 git clone https://github.com/your-username/Document-Summarizer.git
 cd Document-Summarizer
-
+```
 
 Install Required Packages
-'''pip install -r requirements.txt'''
-
+```bash
+pip install -r requirements.txt
+```
 
 The key libraries used:
 streamlit
@@ -45,12 +46,17 @@ Visit Hugging Face Model Hub - LaMini-Flan-T5-248M
 Click Download and save the model folder to your local machine
 Update the checkpoint path in the code:
 
+```bash
 checkpoint = "path/to/your/downloaded/model/folder"
+```
 
 Option 2: Load the model directly from Hugging Face
 You can modify the checkpoint to load online:
 
+```bash
 checkpoint = "MBZUAI/LaMini-Flan-T5-248M"
+```
+
 This will automatically download the model when the code runs (requires internet).
 
 🚀 Running the Project
@@ -58,7 +64,9 @@ After setup:
 
 Run the Streamlit app:
 
-'''streamlit run app.py'''
+```bash
+streamlit run app.py
+```
 
 
 🛠️ Project Workflow
