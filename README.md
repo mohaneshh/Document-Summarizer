@@ -19,9 +19,9 @@ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/Document-Summarizer.git
-cd Document-Summarizer```
+cd Document-Summarizer
 
-```
+
 Install Required Packages
 '''pip install -r requirements.txt'''
 
